@@ -1,5 +1,5 @@
 # World Capitals Trainer
-## Project Context
+## The context Context
 
 Many students know the names of countries but have difficulty remembering their capitals. Geography is often learned by memorizing information, which can become repetitive and not very interactive. This project proposes a simple educational solution: an interactive geography quiz developed in Python.
 
