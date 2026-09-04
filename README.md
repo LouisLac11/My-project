@@ -1,45 +1,45 @@
 # World Capitals Trainer
 ## The context
 
-Many students know the names of countries but have difficulty remembering their capitals. Geography is often learned by memorizing information, which can become repetitive and not very interactive. This project proposes a simple educational solution: an interactive geography quiz developed in Python.
+Many learners are familiar with country names but struggle to recall their capitals. Geography education often relies on rote memorization, which can become monotonous and lacks interactivity. This initiative suggests a straightforward educational approach: a geography quiz created using Python.
 
-The purpose of the program is to help users improve their knowledge of world countries and capitals in a more engaging way. Instead of only reading a list of countries and capitals, the user actively answers questions and immediately receives feedback. This makes the learning process more dynamic and allows the user to identify the countries they already know and the ones they need to practice more.
+The goal of the program is to assist users in enhancing their understanding of countries and their capitals in a more engaging manner. Instead of simply reviewing a list of countries alongside their capitals, the user participates by answering questions and receiving immediate feedback. This approach makes the learning experience more dynamic and enables users to recognize the countries they are already familiar with and those requiring more practice.
 
-This project is also useful from a programming perspective because it applies several fundamental Python concepts in a practical situation. The program will use variables, conditional statements, loops, lists or dictionaries, user input, random questions, counters, and score calculations.
+This project is also beneficial from a coding standpoint, as it incorporates several basic Python concepts within a practical context. The program will utilize variables, conditional statements, loops, lists or dictionaries, user input, random question generation, counters, and score tracking.
 
 ## What the Program Will Do
 
-When the program starts, it will display a welcome message and explain the objective of the quiz. The user will then choose a difficulty level:
+Upon starting the program, a welcome message will be shown, along with an explanation of the quiz's goal. The user will then select a difficulty level:
 
-* **Easy:** common countries and well-known capitals, such as France–Paris or Mexico–Mexico City.
-* **Medium:** less obvious countries and capitals, such as Canada–Ottawa or Australia–Canberra.
-* **Hard:** more difficult countries and capitals from different regions of the world.
+* **Easy:** familiar countries and well-known capitals, like France–Paris or Mexico–Mexico City.
+* **Medium:** less familiar countries and capitals, such as Canada–Ottawa or Australia–Canberra.
+* **Hard:** more challenging countries and capitals from various regions around the globe.
 
-After the difficulty level is selected, the program will randomly choose a certain number of questions from a database of countries and capitals.
+Once the difficulty level is chosen, the program will randomly select a specific number of questions from a database containing countries and their capitals.
 
 For each question, the program will:
 
-1. Display the name of a country.
-2. Ask the user to type its capital.
-3. Compare the user's answer with the correct answer.
-4. Display a message indicating whether the answer is correct or incorrect.
-5. If the answer is incorrect, display the correct capital.
-6. Add one point to the score when the answer is correct.
-7. Continue with the next question.
+1. Present the name of a country.
+2. Request the user to type in its capital.
+3. Compare the user’s response with the correct answer.
+4. Show a message indicating if the response is right or wrong.
+5. If the answer is wrong, reveal the correct capital.
+6. Increase the score by one point for each correct answer.
+7. Move on to the next question.
 
-At the end of the quiz, the program will calculate and display:
+Upon completion of the quiz, the application will compute and present:
 
-* The number of correct answers.
-* The total number of questions.
-* The percentage of correct answers.
-* A final message depending on the user's performance.
+* The total number of correct responses.
+* The overall amount of questions posed.
+* The percentage of answers that were correct.
+* A concluding message that reflects the user's performance.
 
-For example, if the user answers 8 questions correctly out of 10, the program could display:
+For instance, if a participant answers 8 out of 10 questions correctly, the application might show:
 
 **Final Score: 8/10 – 80%**
 
-It could also display a message such as:
+It may also include a message like:
 
-**“Great job! You have a good knowledge of world capitals.”**
+**“Excellent work! You possess a solid understanding of world capitals.”**
 
-The main objective of the project is therefore to create a simple but complete educational game that allows users to test and improve their geography knowledge while demonstrating the use of fundamental Python programming concepts.
+The primary goal of this project is to develop a straightforward yet comprehensive educational game that enables users to assess and enhance their geographical knowledge while showcasing essential Python programming principles.
